@@ -3,7 +3,7 @@
 ![license](https://img.shields.io/badge/license-MIT-green)
 ![python](https://img.shields.io/badge/python-3.8+-yellow)
 ![GitHub issues](https://img.shields.io/github/issues/chase5ws/forward-tek_mail_automaticreply)
-![GitHub stars](https://img.shields.io/github/stars/chase5ws/forward-tek_mail_automaticreplyd)
+![GitHub stars](https://img.shields.io/github/stars/chase5ws/forward-tek_mail_automaticreply)
 ![GitHub forks](https://img.shields.io/github/forks/chase5ws/forward-tek_mail_automaticreply)
 ![icon](asset/icon.png)
 
