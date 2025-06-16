@@ -1,19 +1,31 @@
-專案說明
-本專案包含多個 Python 腳本，用於處理 Excel 檔案，生成測試資料，並將處理結果輸出為 Excel 或文字檔案。以下是各檔案的功能與使用說明。
+### discord自動發言廣告
+![version](https://img.shields.io/badge/version-1.0.0-blue)
+![license](https://img.shields.io/badge/license-MIT-green)
+![python](https://img.shields.io/badge/python-3.8+-yellow)
+![GitHub issues](https://img.shields.io/github/issues/chase5ws/asc_discord_auto_ad)
+![GitHub stars](https://img.shields.io/github/stars/chase5ws/asc_discord_auto_ad)
+![GitHub forks](https://img.shields.io/github/forks/chase5ws/asc_discord_auto_ad)
+![icon](asset/icon.png)
 
-檔案目錄
-generate_excel.py
+---
+* 使用main.exe檔案即可執行使用
 
-用於生成測試用的 Excel 檔案，包含標題行和範例資料。
+---
+### 專案簡介
 
-process_excel.py
+此專案用於快速生成與處理離職同仁的資料，包含生成測試資料、處理現有資料並輸出結果，以及將資料轉換為文字檔案等功能。適合需要批次處理離職資料的場景，提升工作效率。
 
-用於處理使用者提供的 Excel 檔案，根據檔案內容生成處理結果並另存為新的 Excel 檔案。
+---
+### 功能概述
 
-excel2txt.py
+- **生成測試資料**：快速生成範例 Excel 檔案，方便測試或模擬操作。
+- **處理離職資料**：讀取 Excel 檔案，根據狀態自動生成標準化回覆內容，並輸出新檔案。
+- **轉換文字檔案**：將每列 Excel 資料轉換為文字檔案，便於後續使用。
 
-用於將 Excel 檔案中的每一列資料轉換為文字檔案並分別存儲於指定的資料夾中。
+---
+### 技術重點
 
-main.py
-
-提供一個主選單，讓使用者可以選擇執行上述腳本
+- **pandas**：用於高效處理 Excel 資料。
+- **openpyxl**：支援 Excel 檔案的讀寫操作。
+- **os**：處理檔案與資料夾操作。
+- **datetime**：生成時間戳，避免檔案覆蓋。
